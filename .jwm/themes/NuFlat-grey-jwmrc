@@ -1,0 +1,46 @@
+<?xml version=1.0?>
+<JWM> <!-- adapted from Barry Kauler's NuFlat-grey -->
+
+<WindowStyle> 
+	<Font>Sans-10</Font> 
+	<Width>3</Width> 
+	<Foreground>#555555</Foreground> 
+	<Background>#cccccc</Background>          
+	<Outline>#777777</Outline> 
+	<Active><Foreground>#ffffff</Foreground> 
+	<Background>#6993C1</Background> 
+	<Outline>#777777</Outline></Active> 
+</WindowStyle> 
+
+<TrayStyle> 
+	<Font>Sans-10</Font> 
+	<Foreground>black</Foreground> 
+	<Background>#DCDAD5</Background> 
+	<Active><Foreground>#ffffff</Foreground> 
+	<Background>#6A94C2</Background></Active> 
+</TrayStyle> 
+
+<PagerStyle> 
+	<Outline>black</Outline> 
+	<Foreground>#DCDAD5</Foreground> 
+	<Background>#888888</Background> 
+	<Active><Foreground>#8899AA</Foreground> 
+	<Background>#6A94C2</Background></Active> 
+</PagerStyle> 
+
+<PopupStyle> 
+	<Font>Sans-10</Font> 
+	<Outline>black</Outline> 
+	<Foreground>black</Foreground> 
+	<Background>yellow</Background> 
+</PopupStyle> 
+
+<MenuStyle> 
+	<Font>Sans-10</Font> 
+	<Foreground>black</Foreground> 
+	<Background>#EEEEEE</Background> 
+	<Active><Foreground>#ffffff</Foreground> 
+	<Background>#6A94C2</Background></Active> 
+</MenuStyle> 
+
+ </JWM>

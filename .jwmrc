@@ -1,23 +1,101 @@
 <?xml version="1.0"?>
-
 <JWM>
 
-<!-- Initialize the applications used in conjunction with JWM -->
-<Include>$HOME/.jwm/startup</Include>
+    <!-- Initialize the applications used in conjunction with JWM -->
+    <Include>$HOME/.jwm/startup</Include>
 
-<!-- The root menu, if this is undefined you will not get a menu. -->
-<!-- Additional RootMenu attributes: onroot, labeled, label -->
-<RootMenu height="20">
+    <!-- The root menu, if this is undefined you will not get a menu. -->
+    <!-- Additional RootMenu attributes: onroot, labeled, label -->
+    <RootMenu label="Menu" labeled="false" height="20" onroot="12">
+        <Include>$HOME/.jwm/menu</Include>
+        <Separator/>
+        <Program icon="lock.png" label="Lock">
+            xlock -mode blank
+        </Program>
+        <!-- Separator/ -->
+        <Restart label="Restart" icon="restart.png"/>
+        <Exit label="Exit" confirm="true" icon="quit.png"/>
+    </RootMenu>
 
-   <!-- The backbone antiX menu -->
-   <Include>$HOME/.jwm/menu</Include>
+    <!-- Options for program groups. -->
+    <Group>
+        <Option>tiled</Option>
+        <Option>aerosnap</Option>
+    </Group>
+    <Group>
+        <Class>Pidgin</Class>
+        <Option>sticky</Option>
+    </Group>
+    <Group>
+        <Name>xterm</Name>
+        <Option>vmax</Option>
+    </Group>
+    <Group>
+        <Name>xclock</Name>
+        <Option>drag</Option>
+        <Option>notitle</Option>
+    </Group>
 
-   <Separator/>
-   <Menu label="Logout..." icon="/usr/share/icons/papirus-antix/48x48/actions/application-exit.png">
-     <Restart label="Restart JWM" icon="/usr/share/icons/papirus-antix/48x48/actions/view-refresh.png"/>
-     <Program label="Log Out" icon="/usr/share/icons/papirus-antix/48x48/actions/application-exit.png">desktop-session-exit</Program>
-   </Menu>
-</RootMenu>
+    <!-- Visual Styles -->
+    <WindowStyle>
+        <Font>Sans-9:bold</Font>
+        <Width>4</Width>
+        <Height>21</Height>
+        <Corner>3</Corner>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#555555</Background>
+        <Outline>#000000</Outline>
+        <Opacity>0.5</Opacity>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#0077CC</Background>
+            <Outline>#000000</Outline>
+            <Opacity>1.0</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle group="true" list="all">
+        <Font>Sans-9</Font>
+        <Background>#333333</Background>
+        <Foreground>#FFFFFF</Foreground>
+        <Outline>#000000</Outline>
+        <Opacity>0.75</Opacity>
+    </TrayStyle>
+    <TaskListStyle>
+      <Font>Sans-9</Font>
+      <Active>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#555555</Background>
+      </Active>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#333333</Background>
+    </TaskListStyle>
+    <PagerStyle>
+        <Outline>#000000</Outline>
+        <Foreground>#555555</Foreground>
+        <Background>#333333</Background>
+        <Text>#FFFFFF</Text>
+        <Active>
+            <Foreground>#0077CC</Foreground>
+            <Background>#004488</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <Outline>#000000</Outline>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#0077CC</Background>
+        </Active>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+    <PopupStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#999999</Background>
+    </PopupStyle>
+
 
 <Include>$HOME/.jwm/keys</Include>
 <Include>$HOME/.jwm/theme</Include>

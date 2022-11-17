@@ -1,0 +1,47 @@
+<?xml version=1.0?>
+<JWM> <!-- adapted from `f00's stnakes -->
+
+<WindowStyle>
+	<Font>Sans-10</Font>
+	<Width>3</Width>
+	<Foreground>#6b997b</Foreground>
+	<Background>#57635b</Background>
+	<Outline>#606b64</Outline>
+	<Active><Foreground>black</Foreground>
+	<Background>#73bf8c</Background>
+	<Outline>#80ffaa</Outline></Active>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>Sans-10</Font>
+	<Foreground>#c7c7c7</Foreground>
+	<Background>#394c40</Background>
+	<Active><Foreground>black</Foreground>
+	<Background>#73bf8c</Background></Active>
+</TrayStyle>
+
+<PagerStyle>
+	<Outline>#606b64</Outline>
+	<Foreground>#c7c7c7</Foreground>
+	<Background>#808F85</Background>
+	<Active><Foreground>#80ffaa</Foreground>
+	<Background>#BDCFC3</Background></Active>
+</PagerStyle>
+
+<PopupStyle>
+	<Font>Sans-10</Font>
+	<Outline>#434c46</Outline>
+	<Foreground>#c7c7c7</Foreground>
+	<Background>#394c40</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font>Sans-10</Font>
+	<Foreground>#c7c7c7</Foreground>
+	<Background>#394c40</Background>
+	<Active><Foreground>black</Foreground>
+	<Background>#73bf8c</Background></Active>
+	<Opacity>0.80</Opacity>
+</MenuStyle>
+
+</JWM>

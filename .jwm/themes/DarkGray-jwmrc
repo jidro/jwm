@@ -1,0 +1,46 @@
+<?xml version=1.0?>
+<JWM> <!-- adapted from CMB27's DarkGray -->
+
+<WindowStyle>
+	<Font>Sans-10</Font>
+	<Width>3</Width>
+	<Foreground>#7f7f7f</Foreground>
+	<Background>#333333</Background>
+	<Active><Foreground>white</Foreground>
+	<Background>#555555</Background>
+	<Outline>#7f7f7f</Outline></Active>
+</WindowStyle>
+
+<TrayStyle>
+	<Font>Sans-10</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#333333</Background>
+ 	<Active><Foreground>#ffffff</Foreground>
+	<Background>#D64937</Background></Active>
+</TrayStyle>
+
+<PagerStyle>
+	<Outline>#000000</Outline>
+	<Foreground>#FFFFFF</Foreground>
+	<Foreground>#DCDAD5</Foreground>
+	<Background>#9898A8</Background>
+	<Active><Foreground>#F899CA</Foreground>
+	<Background>#DA4976</Background></Active>
+</PagerStyle>
+
+<PopupStyle>
+	<Font>Sans-10</Font>
+	<Outline>#7f7f7f</Outline>
+	<Foreground>#ffffff</Foreground>
+	<Background>#333333</Background>
+</PopupStyle>
+
+<MenuStyle>
+	<Font>Sans-10</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#333333</Background>
+	<Active><Foreground>#ffffff</Foreground>
+	<Background>#D64937</Background></Active>
+</MenuStyle>
+
+</JWM>
